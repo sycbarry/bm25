@@ -1,0 +1,96 @@
+1 || 1 || json mapping general approach the mif will provide a pluggable mapper at the publish channel and enterprise service layers that will allow an implementer to convert json to maximo xml and maximo xml to json
+1 || 2 || the mapper will be deployed using the external exit in either the publish channel or enterprise service which allow the support of asynchronous processing via the jms queues
+1 || 3 || the json mapper will be comparable to the existing use of javascriptsxsl that allow customization processing on an integration message inbound or outbound
+1 || 4 || in order to provide this capability there will be enhancements provided within the integration framework  jms queues will support json data in addition to xml - both types of messages can be stored in the same jms queue
+1 || 5 ||  message reprocessing will support json data 
+2 || 1 ||  message tracking will support json data  viewdelete queue utilities will support json data  jms cron tasks selectors will operate on json data  jms support for text format will support json data  a new json mapping application will be provided  publish channels and enterprise services will support the implementation of a json map jms queues and related processing the jms queues will support the storing and subsequent processing of an integration message in json format for either a publish channel or enterprise service
+2 || 2 || the loading of inbound json data into a queue will be supported using either httphttps or a direct update via jms no support for loading of json data using interface tables web services or from a file
+2 || 3 || an individual jms queue will support messages in both xml and json format
+2 || 4 || the mdb and jms cron tasks will support the use of selectors against queues that have json data
+2 || 5 || the view queue and delete queue that allows viewing or deleting of data in the queues will support messages in a json format
+2 || 6 || a queue defined to support text formattext message encoding will support json data
+2 || 7 || message tracking will be supported for channels and services that have a json map implemented
+2 || 8 || when data is configured to be saved it will be in json format
+2 || 9 || the search and external message ids are supported using the following format featuresattributesobjectid note values are case sensitive where features and attributes are json objects
+2 || 10 || message reprocessing will be supported for channels and services when a json map implemented that have messages that go in error
+2 || 11 || the internal and external message view will support both xml and json formatted data
+2 || 12 || enterprise service es a json map can be used with an enterprise service inbound process to accept a message in a json format and convert it to maximo xml in order for the message to be processed into maximo
+2 || 13 || the use 
+3 || 1 || of the map can be implemented when the es is invoked in an asynchronous model where the message is persisted to an inbound jms queue or when es is invoked in a synchronous model no queue
+3 || 2 || the invocation of the json map occurs when the processing class external exit of the es is executed
+3 || 3 || when an enterprise service supports a json map the processing class external exit must be comibmtivolimaximofdmbojsonmapperexit or a class that extends this class
+3 || 4 || this processing class is needed for both the request side and the response side when response is used in a synchronous approach
+3 || 5 || the json map identifies the enterprise service based on the map name assigned 
+3 || 6 || a json map is defined using a naming convention that identifies what component it belongs to
+3 || 7 || the name format would be  externalsytementerpriseservicein ex extsysmxassetinterfacein  externalsytementerpriseserviceresponse ex extsysmxiteminterfaceresponse when a message is processed through the enterprise service the framework will invoke the registered json map as part of the request in or response
+3 || 8 || when calling an enterprise service with json the mime type of applicationjson must be provided in the content-type header
+3 || 9 || records added directly into the jms queue require a jms header of mimetype with a value of applicationjson publish channel pc a json map can be used with an publish channel outbound process to convert an outbound message from maximo xml format to a json format
+3 || 10 || a map can be applied to a channel pushing data out from an event or data export and when a channel is fired on a recursion basis when the event is triggered from an inbound integration message
+3 || 11 || the invocation of the json map occurs when the processing class external exit of the pc is executed
+3 || 12 || when a publish channel supports a json map the processing class external exit must be comibmtivolimaximofdmbojsonmapperexit or a class that extends this class
+3 || 13 || the json map for a pc is defined using a naming convention that identifies what component it belongs to
+3 || 14 || the name format would be 
+4 || 1 ||  externalsytempublishchannelout ex extsysmxassetinterfaceout  externalsytementerpriseserviceresponse ex extsysmxiteminterfaceresponse when a pc event is fired from the processing of an inbound integration message recursion the json map named is identified with a response in the name since the recursion transaction is a response to inbound integration transaction
+4 || 2 || note a customization javascripting using the event filter class is needed to enable recursion processing pc messages in a json format that are placed into the outbound queue can be processed from the queue using an http-based end point jms-based end point or xml file end point
+4 || 3 || the xml file end point will write a file in json format not xml
+4 || 4 || invocation channel no support for a json map with an invocation channel
+5 || 1 || json mapper application a new integration application json mapping will be provided for the creation and configuration of a json map that can be enabled for use with integration message processing as mentioned above
+5 || 2 || this application supports the creation testing and deletion of json maps
+5 || 3 || the json mapping application will allow an integrator to select an integration object structure and supply a sample json snippet from which a mapping will be created to map json data to maximo xml and vice versa
+5 || 4 || the mapping application can leverage a provided url or integration http end point to retrieve the json data as part of the configuration
+5 || 5 || the sample json may also be manually entered
+5 || 6 || once the json is supplied the integrator can begin mapping json data to the objects and attributes of the selected object structure
+5 || 7 || the application provides a test action to allow an integrator to provide json or xml data into the mapper and view the output json or xml data that was produced using the map
+6 || 1 || creating a json map when creating a json map for use with a publish channel or enterprise service you can link the map to your channel or service by following a defined naming convention for the map see the earlier sections above for the naming convention details
+6 || 2 || in addition to the name and description you select direction either inbound for an enterprise service or outbound for a publish channel
+6 || 3 || you are required to select an object structure type integration or oslc and then you can enter either an existing integration end point handler type of http or a url
+6 || 4 || the end point or url should be able to access your sample json and will automatically populate the json data section
+6 || 5 || you may also cut and paste sample json data directly into the json data field note when cutting and pasting json data depending upon the source from a browser window an email etc you may carry extrahidden characters which might give validation errors
+6 || 6 || it is suggested that you paste your json into a text editor such as notepad and then copy and paste from there into the maximo application
+6 || 7 || once the map is saved you can then proceed to the properties tab of the json application and begin mapping your json data to the objects and attributes that are contained within the object structure you selected
+7 || 1 || the properties tab provides two tables where the parent top table supports the mapping of objects and the child lower table is for the mapping of the attributes for those objects
+7 || 2 || the lower table content is driven by the in-focus row objects in the upper table
+7 || 3 || the mapping of the json data to the object structure requires an understanding of json syntax as well as the data content provided in the sample json within the json mapping tab
+7 || 4 || by default the root object in the object structure asset in the screen shot above will be initially mapped to the root of the json data identified by a single slash 
+7 || 5 || below is a sample json file and it is made up of json objects arrays and simple types
+7 || 6 || objects are identified with a   and arrays are identified with  
+7 || 7 || simple types may exist within either
+7 || 8 || sample json  clientid abc co typeid pump 
+8 || 1 || deviceid x deviceinfo  serialnumber aeiaw manufacturer xyz co model h- deviceclass centrifugal description centrifugal pump gpmfthd descriptivelocation br  metadata  asset  siteid bedford  monitor  measuretype   id temp-f  desc temperature fahrenheit   id temp-c desc temperature celsius    status  alert  
+9 || 1 || enabled false timestamp --tz    in the example above there are four json objects under the root level  deviceinfo    metatdata    monitor    status   in addition there are simple types at the root level as well clientid typeid deviceid
+9 || 2 || within the status object there is an object named alert and within the monitor object there is an object name measuretype that is an array  
+10 || 1 || a hierarchical view of the objects in this json data would look like this  deviceinfo   metatdata   monitor   measuretype  measuretype  status   alert  the object and properties mapping has a limited set of validation to allow the implementer full flexibility to map the json data to maximo xml as defined by the object structure
+10 || 2 || with this in mind it is the responsibility of the implementer to perform a logical mapping based on the data structure of the json data to create valid xml message that can be processed into maximo
+10 || 3 || mapping from the root level if it is logical to map all the data to just the asset object within the mxasset object structure then your mapping can be done at the root level as shown below
+10 || 4 || a dot  notation is used to traverse down a hierarchy of json objects ex statusalertenabled
+11 || 1 || i n the mapping above there was no mapping to monitormeasuretype data since that is an array
+11 || 2 || if an array was mapped there could have been multiple values attempted to be mapped to a single asset
+11 || 3 || this would have resulted in multiple assets in the xml structure created from the json data
+11 || 4 || in addition to setting a property value to populate a target attribute you can also use javascript following standard javascript syntax to provide a value or provide a literal value such as abc
+11 || 5 || you can concatenate two source properties separated by a dash using this format field-field mapping from multiple levels of the json data in order to map from a level of json data to an object structure each parent level in the json data must also be mapped as an object even if none of the fields at that level are being mapped
+11 || 6 || for example the json data has these levels  deviceinfo   
+12 || 1 || metatdata   monitor   measuretype  measuretype  status   alert  in order to map data from the deviceinfo object the root level must first be mapped to an object
+12 || 2 || you could map asset to  root asset to deviceinfo with this mapping you could then map fields from deviceinfo to fields of the asset object
+12 || 3 || likewise if you wanted to map fields from the measuretype object to assetmeter the mapping must have asset to  root asset to monitor assetmeter to measuretype you cannot skip the mapping of a layer such as monitor if you plan to map data from its child object
+12 || 4 || since measuretype is an array it is expected that it would map to a child object of asset such as assetmeter since assetmeter can hold multiple meters for an asset
+12 || 5 || mapping monitor to asset makes sense since it is a single object not an array
+12 || 6 || keep in mind there is no requirement to map any fields from monitor to asset
+12 || 7 || monitor is required in order to map data from measuretype
+13 || 1 || in the json mapping application the mapping would look like this above is the mapping of the objects and the properties mapping for the asset and root level of the json data
+13 || 2 || there are no mappings for properties of monitor
+13 || 3 || below are the mappings for the measuretype 
+15 || 1 || you could also map two different fields from one json object to the same field in one maximo object two mapping rows in order to create multiple occurrences of that maximo object
+15 || 2 || as seen in the screen shot above there are some reserved words that can be used to map a maximo object field with sysdate  system datetime siteid  default siteid of the user of the transaction username  user name associated to the transaction for an inbound transaction the xml action attribute can be assigned to each object in the field action
+15 || 3 || this field is not selectable and must be keyed into the target attribute value
+15 || 4 || the value for the action can be manually entered in the source property field and must be a valid object structure action such as addchange add etc
+15 || 5 || the above mapping screen shots show mapping that is for inbound processing where json data is being converted to maximo data
+15 || 6 || for the case of outbound data using a publish channel conceptually the mapping is the same except in reverse
+15 || 7 || the source fields would be the maximo object and the target fields would be the json data
+15 || 8 || as with inbound if you are mapping to a child object in the json data you must include its parent object in the mapping even if none of the fields in that object are being mapped
+15 || 9 || mapping conditions when you map a property you can apply a condition to conditionally map the value
+15 || 10 || in the application focus on the row to apply a condition and hit the conditional values button
+15 || 11 || hit new row and use javascript syntax to enter a condition
+15 || 12 || the lookup for the condition field allows you to select fields in the json data when doing inbound mapping
+15 || 13 || example the object attribute description is mapped to deviceinfodescription from the json data
+15 || 14 || a condition is added as follows condition value typeidpump deviceinfodeviceclass what this will do is if the typeid from the json data is equal to pump the value mapped to the description will be the deviceinfodeviceclass rather than the deviceinfodescription
+15 || 15 || the value can also be a hardcoded string such as xyz

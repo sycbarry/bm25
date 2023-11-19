@@ -1,0 +1,36 @@
+1 || 1 || ibm maximo application suite monitor manage and maintain your assets in a single platform and streamline your operations highlights  increase production uptime with more accurate alerts and anomaly detection  analyze data with ai to go from reactive to predictive maintenance  empower field technicians with the right asset data and increase first-time fix rates  use just the applications you need with simplified licensing and usage  enjoy flexible deployment models whether on premises or multi-cloud
+2 || 1 || ibm offers a closed-loop model from overview capturing and analyzing data to enabling prescriptive maintenance actions ensuring reliable equipment operations ibm maximo is extending its market-leading adaptability and operational resiliency cmmseam platform by providing remote requires a new way of working
+2 || 2 || one that asset monitoring maintenance and reliability helps your business respond quickly to applications in a single platform that enables changing conditions and helps maintain you to increase uptime improve productivity business continuity under varying reduce maintenance costs and build more circumstances
+2 || 3 || insights from intelligent resilient operations
+2 || 4 || connected assets and untapped data sources are critical to understanding the the suite streamlines installation and preventive predictive and prescriptive administration while enhancing the user actions needed to drive efficiency and experience with shared data workflow ux reduce operating costs
+2 || 5 || and flexible application usage
+2 || 6 || with expanded access to cmmseam and asset performance new insights from your assets new ways of working predictive maintenance alone can reduce management applications you and your team  ai anomaly or alert generate  remote expert assistance costs by  -  improve asset will be on the path of obtaining operational  visual inspection work queue  mobile workspace  availability by  and extend the lives of visibility of your assets through their lifecycle  asset health score  diagnostic interfaces machines by years
+2 || 7 || you need an ai-enabled with faster roi increased productivity and  predicted failure  asset  digital twin info enterprise asset management eam solution operational uptime
+2 || 8 ||  ai-based assistance that is easy to use and provides enterprise-  asset operating history maintenance scale execution for maintenance operations  wearables  biometrics history and reliability teams
+2 || 9 ||  safety sensors 
+2 || 10 || idc manufacturing insights transforming asset management at the edge reid paquin idc april  ibm maximo ibm maximo application suite 
+3 || 1 || how it works journey to predict the maximo application suite allows users to sign on to a single integrated platform to access key monitoring maintenance and reliability applications across the business
+3 || 2 || not only does it help remove data silos it enhances data sharing with integrated user experience and shared administrative controls for enterprise-scale execution
+3 || 3 || with a new committed term license businesses can access the entire suite with one single entitlement
+3 || 4 || users in the organization will have a pool of apppoints that will allow them to seamlessly move from one application to another as needed
+3 || 5 || this enables organizations to pay for only what they use
+3 || 6 || you can try and deploy new applications without substantial license and administration costs
+3 || 7 || it also allows your team to deploy new capabilities and grow as well as share industry specific digital twin assets and modules
+3 || 8 || essentially this is the easiest and most cost-effective way for organizations to get on their journey to predict so they can take the preventive predictive and prescriptive actions needed to drive efficiency and reduce operating costs
+3 || 9 || ibm maximo ibm maximo application suite 
+4 || 1 || applications available s n o e i t x u t l e o n s s manage i y o r n t in this suite s s u d n i monitor safety vp operations maximo manage cmmseam maximo health reduce downtime and costs by optimizing asset management and manage the health of your assets using iot cio safety maintenance processes to improve operational performance
+4 || 2 || leverage data from asset sensors asset records and assets ofcer health assist embedded industry expertise with best-practice data models and work history to increase asset availability and workflows to accelerate your industry transformation
+4 || 3 || unify asset improve replacement planning
+4 || 4 || get a true view management processes using role-based workspaces to help teams of asset health via dashboard displays to provide across your enterprise
+4 || 5 || maximo manage unifies robust asset life cycle and evidence to base operational decisions
+4 || 6 || technician reliability engineer maintenance management activities providing insight into all enterprise assets their conditions and work processes to achieve better planning maximo predict m predict mobile e t d and control
+4 || 7 || go beyond time-scheduled maintenance to s i y g s it o a c condition-based action to predict the likelihood l e t w y t r in scheduler a maximo monitor of future failures by applying machine learning p d r  improve asset and operational availability with advanced ai-powered and data analytics to reduce cost and asset remote asset monitoring at scale
+4 || 8 || collect data from your existing ot failures
+4 || 9 || build on the power of other maximo systems an converge your it systems and operational systems in a capabilities and watson studio to make data- single data lake to detect anomalies
+4 || 10 || driven decisions and build predictive models
+4 || 11 || maximo visual inspection maximo mobile perform a visual inspection of the line or asset using commercial off- manage any asset anytime any place
+4 || 12 || built on next-generation mobile the-shelf ios devices to get immediate actionable notifications of any technology maximo mobile boosts productivity by giving field technicians emerging issue
+4 || 13 || scale easily to view multiple points  including global the power to easily navigate a single intuitive platform and find the right views of all plants and geographies
+4 || 14 || integrate with maintenance and asset history and operational data even in the most remote locations quality workflows for a fast and prescriptive response
+4 || 15 || online or offlineall in the palm of their hand
+4 || 16 || ibm maximo ibm maximo application suite 

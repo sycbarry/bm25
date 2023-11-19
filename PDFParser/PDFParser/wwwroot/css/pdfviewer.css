@@ -1,0 +1,302 @@
+
+.view_container {
+  max-height: calc(100vh - 200px);
+  max-width: 100vw;
+}
+
+#view_wrapper {
+  display: grid;
+  width: 100%;
+  max-height: 100%;
+  height: calc(100vh - 100px);
+  max-height: calc(100vh - 100px);
+
+  overflow: scroll;
+
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-areas: "canvas_container_wrapper search_results_container";
+}
+
+.pdf-toolbar {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+#navigation_controls {
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+#zoom_controls {
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid black;
+  border-color: black transparent black transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pdf-toolbar-button {
+  border: none;
+  outline: none;
+  box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+  padding: 10px;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.pdfpage {
+  box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+#canvas_text_container {
+  padding: 30px;
+  overflow: scroll;
+  max-height: calc(100vh - 100px);
+}
+#canvas_container {
+  padding: 20px;
+  overflow: scroll;
+  max-height: calc(100vh - 100px);
+}
+#canvas_container_wrapper {
+  grid-area: canvas_container_wrapper;
+  max-height: calc(100vh - 100px);
+
+  padding: 20px;
+  overflow: scroll;
+
+}
+
+#search_results_container {
+  grid-area: search_results_container;
+  background: white;
+  max-height: inherit;
+  overflow: scroll;
+
+  display: grid;
+  grid-template-rows: 1fr 0.2fr;
+  grid-template-areas: "results" "searchbox";
+
+  background: #fdfdfd;
+  padding: 20px;
+
+}
+
+
+.response-block {
+  margin-top: 10px;
+  padding: 30px;
+  /* padding-left: 0px; */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-flow: column;
+}
+#top-block {
+  padding: 10px;
+}
+#bottom-block {
+  padding: 20px;
+  display: flex;
+}
+
+.result-cell {
+  padding: 20px;
+  padding-left: 0px;
+  /* box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px; */
+  color: gray;
+  margin-bottom: 10px;
+  display: none;
+}
+.visible {
+  display: block;
+}
+.result-cell-inner-wrapper{
+  padding-left: 0px;
+  /* padding-left: 10px; */
+}
+.query-score-cell {
+  color: lightgray;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-bottom: 7px;
+  font-size: 10px;
+}
+.query-result-cell {
+  color: black;
+  font-weight: thin;
+  padding-left: 0px;
+  padding-left: 0px;
+  /*
+  border-left-color: whitesmoke;
+  border-left-style: solid;
+  border-left-width: 10px;
+  */
+  text-decoration: italic;
+  font-size: 12px;
+}
+
+#results {
+  grid-area: results;
+  padding: 10px;
+
+  overflow: scroll;
+}
+#searchbox {
+  grid-area: searchbox;
+  background: white;
+  padding: 20px;
+  /* box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px; */
+  height: fit-content;
+}
+.search_form_input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+}
+
+#searchbox-explanation-buttons {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 15px;
+}
+.searchbox-explanation-button {
+  padding: 10px;
+  box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+  border: black ;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.searchbox-explanation-button-inactive {
+  background: white;
+  color: black;
+}
+.searchbox-explanation-button-active {
+  background: green;
+  color: white;
+}
+.searchbox-explanation-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.gg-arrow-right-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs, 2));
+    border-radius: 20px;
+    background: black;
+    color:white;
+    margin-top: 15px;
+    box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+.gg-arrow-right-o::after,
+.gg-arrow-right-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 4px
+}
+.gg-arrow-right-o::after {
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    bottom: 6px
+}
+.gg-arrow-right-o::before {
+    width: 10px;
+    height: 2px;
+    bottom: 8px;
+    background: currentColor
+}
+
+.gg-list-tree {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    transform: scale(var(--ggs,1));
+    background:
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat left top/8px 8px,
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat center 3px/8px 2px,
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat 10px 17px/6px 2px,
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat 10px 3px/2px 16px
+}
+.gg-list-tree::after,
+.gg-list-tree::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    right: 0;
+    cursor: pointer;
+}
+
+.gg-list-tree::after {
+    bottom: 0
+}

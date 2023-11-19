@@ -1,0 +1,122 @@
+#index-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-areas: "bookshelf-list bookshelf-detail";
+  height: inherit;
+  width: 100vw;
+  position: relative;
+}
+#bookshelf-list {
+  grid-area: bookshelf-list;
+}
+#bookshelf-detail {
+  grid-area: bookshelf-detail;
+  background: whitesmoke;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.bookshelf {
+  padding: 20px;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(41, 41, 41);
+  width: fit-content;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.bookshelf:hover {
+}
+
+#newbookshelfbutton {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(30, 125, 30);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  width: 20%;
+  transition-duration: 0.2s;
+}
+#newbookshelfbutton:active {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.title-main {
+  padding: 10px;
+  padding-left: 0px;
+  font-weight: bold;
+  width: auto;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+}
+.book-shelf-container {
+  display: flex;
+  flex-flow: column;
+  /* flex-flow: wrap; */
+}
+.book-single {
+  display: flex;
+  width: fit-content;
+  margin: 10px;
+  transition-duration: 0.2s;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+}
+.book-single:hover {
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+.gg-trash {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 12px;
+    border: 2px solid transparent;
+    box-shadow:
+        0 0 0 2px,
+        inset -2px 0 0,
+        inset 2px 0 0;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin: auto;
+    margin-left: 10px;
+}
+.gg-trash::after,
+.gg-trash::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-trash::after {
+    background: currentColor;
+    border-radius: 3px;
+    width: 16px;
+    height: 2px;
+    top: -4px;
+    left: -5px
+}
+.gg-trash::before {
+    width: 10px;
+    height: 4px;
+    border: 2px solid;
+    border-bottom: transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    top: -7px;
+    left: -2px
+}
+.book-shelf-toolbar {
+  display: flex;
+}
+.file-trash {
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+.file-trash-hidden {
+  margin-right: 10px;
+  display: block;
+}

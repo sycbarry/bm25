@@ -1,0 +1,258 @@
+1 || 1 || a business value white paper sponsored by ibm the business value of ibm maximo research by leif eriksen megan szurley research vice president senior research analyst future of operations idc business value strategy practice idc us march   idc doc
+2 || 1 || the business value of ibm maximo navigating this white paper click on titles or page numbers to navigate to each section
+2 || 2 || business value highlights
+2 || 73 ||  executive summary
+2 || 152 ||  situation overview
+2 || 231 ||  overview of ibm maximo
+2 || 303 ||  the business value of ibm maximo
+2 || 363 ||  study demographics
+2 || 438 ||  selection and use of ibm maximo
+2 || 497 ||  business value and quantified benefits
+2 || 549 ||  asset cost and management efficiencies
+2 || 597 ||  compliance and risk management impacts
+2 || 642 ||  staff productivity and business benefits
+2 || 691 ||  roi summary
+2 || 773 ||  challenges and opportunities
+2 || 838 ||  conclusion
+2 || 925 ||  appendix
+2 || 1014 ||  methodology
+2 || 1096 ||  about the analysts
+2 || 1173 ||  a business value white paper sponsored by ibm maximo  march   doc
+2 || 1174 || us
+3 || 1 || the business value of ibm maximo business value highlights click on highlights below to navigate to related content within this white paper
+3 || 2 ||  million  million  average annual benefits asset management less unplanned downtime per organization operational cost  avoidances  less unplanned-impacting five-year roi  incidents more efficient platform  months  management teams to payback annual net benefits from  additional revenue per   million increase in end-user maintenance workers total equipment cost productivity avoidances executive summary asset-intensive organizations across a wide range of industries including energy manufacturing mining transportation and utilities continue to invest in new and innovative ways to manage their assets
+3 || 3 || the goals are to improve productivity and reliability while reducing costs in a safe and sustainable manner
+3 || 4 || at the center of their efforts are enterprise asset management eam systems such as ibm maximo
+3 || 5 || eam has been integral to the transformation of asset management for several decades but these systems have recently undergone their own transformation by embracing technologies such as cloud and artificial intelligence aimachine learning ml
+3 || 6 || this is bringing many organizations closer than ever to truly optimizing the performance of their assets which is the foundation for operational excellence and resilience
+3 || 7 || ibm maximo is an integrated application suite of asset monitoring maintenance and reliability applications designed to increase uptime improve productivity reduce maintenance costs and enable more resilient operations across a variety of vertical markets
+3 || 8 || with expanded access to cmmseam and asset performance management apm companies can more readily gain operational visibility of their assets and asset lifecycles while enabling faster return on investment roi increasing productivity and improving operational uptime
+3 || 9 || idc conducted research that explored the value and benefits for organizations in using ibm maximo to track support and maintain their enterprise assets
+3 || 10 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+3 || 11 || us
+4 || 1 || the business value of ibm maximo through a series of in-depth customer interviews and a methodology for determining business value idcs analysis found that interviewed companies realized average annual benefits of  million per organization from ibm maximo by improving asset management avoiding unnecessary operational costs and increasing  overall eam efficiency improving the productivity of asset management and field workforce teams using  best available technology enabling the shift from legacymanual processes to more streamlined operations  via automation and other features supporting business needs by minimizing unplanned downtime and avoiding  disruptive events and asset failure while improving end-user productivity and contributing to better business results supporting business transformation from scheduled maintenance to condition-based  maintenance to predictive maintenance situation overview idc has been tracking the evolution of asset management for over  years
+4 || 2 || what has been consistent is that organizations that have been leaders in investing in innovation and digital technology have also been leaders in various asset management performance metrics
+4 || 3 || in idcs  worldwide future of operations survey we found that  of organizations in asset-intensive industries have continued to see improvements in productivity reliability and cost reduction
+4 || 4 || they are also seeing improvements in safety energy management and sustainability
+4 || 5 || continuous improvement is alive and well but the benefits are not evenly spread
+4 || 6 || those that report being leaders in the adoption of digital technology were almost twice as likely to report performance improvements in reliability and productivity over the past two years as their peers
+4 || 7 || similarly those that report better access and availability of data were also much more likely to experience performance improvements
+4 || 8 || this data should put to bed any remaining skepticism of the central role of digital technology and data in driving continuous improvement
+4 || 9 || and for asset-intensive industries the foundation for the use of digital technology and data is their eam system
+4 || 10 || eam needs to evolve however
+4 || 11 || in recent years idc has focused much of its research on cloud-enabled eam and not all vendors have made the transition smoothly see idc marketscape worldwide saas and cloud-enabled asset-intensive eam applications  vendor assessment idc us november 
+4 || 12 || this is another area where the data from idcs worldwide future of operations survey is constructive
+4 || 13 || specifically as it relates to the question of reliability of equipmentoperations those that have an enterprisewide strategy of putting more data in the cloud were  more likely to report positive performance improvements than those that do not allow data to be put in the cloud
+4 || 14 || this lines up with anecdotal evidence from idcs clients and leaders in the area of cloud-enabled eam
+4 || 15 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+4 || 16 || us
+5 || 1 || the business value of ibm maximo in summary the evidence clearly points to the need to continue to invest in digital technology and data to support continuous improvement in asset management
+5 || 2 || it also points to the need for eam to evolve and adapt with the latest digital technology innovations such as cloud and aiml
+5 || 3 || those organizations that recognize the need to make the necessary digital technology investments and partner with a solution provider which is itself investing in innovation will see a substantial return on their investments
+5 || 4 || indeed digital technology and data allow asset-intensive organizations to see higher levels of reliability safety and sustainability while also reducing costs
+5 || 5 || the traditional trade-off between reliability improvements and maintenance costs is fast disappearing for leading organizations which use cloud-enabled asset management to improve visibility predictability and decision making
+5 || 6 || overview of ibm maximo ibm maximo is an integrated and configurable enterprise asset management application to automate workflows provide analytic tools and manage content
+5 || 7 || ibm leverages embedded ai using both supervised and unsupervised machine learning to uncover insights and supplies low-code capabilities
+5 || 8 || tools for technicians include maximo assist a remote expert collaboration application and maximo worker insights which uses iot data from wearables environmental sensors and other sources to help improve workplace safety and compliance
+5 || 9 || ibm maximo is also available in specific industry solution accelerators
+5 || 10 || ibm further enhances its eam offerings with tools for scheduling mobility calibration and environmental and health monitoring
+5 || 11 || maximo can ingest device data from ibms industrial iot platform and digital content from the ibm digital twin exchange
+5 || 12 || in addition ibms application suite includes maximo asset performance management applications and has integrations with ibm cognos analytics and maximo mro inventory optimization as well as external integrations for location-based services and mro digital commerce
+5 || 13 || ibms maximo application suite mas is made up of a range of functional capabilities to meet asset management requirements and architected for multicloud deployment using the red hat openshift container platform
+5 || 14 || ibm simplified subscription licensing for customers with a single entitlement across the suite aligned to end users roles
+5 || 15 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+5 || 16 || us
+6 || 1 || the business value of ibm maximo the business value of ibm maximo study demographics idc conducted research that explored the value and benefits of using ibm maximo to track support and maintain fleets of assets
+6 || 2 || the project included nine interviews with organizations that were using ibm maximo
+6 || 3 || interviewed managers all had experience with and knowledge about the benefits of this solution set and were asked a variety of quantitative and qualitative questions about its impacts on their it profiles asset management operations core businesses and financials
+6 || 4 || table  presents study demographics
+6 || 5 || the organizations that idc interviewed had an average base of  employees which included  maintenance staff members
+6 || 6 || this workforce was supported by an it staff of  engaged in managing  business applications
+6 || 7 || in terms of geographical distribution seven companies were based in the united states with the remainder in the united kingdom and saudi arabia
+6 || 8 || a variety of vertical markets were represented namely the utilities  transportation  education manufacturing government and biotech sectors
+6 || 9 || table  firmographics of interviewed organizations average median range number of employees    number of maintenance    employees number of it staff    number of business    applications total revenue per year b b m to b countries united states  united kingdom and saudi arabia industries utilities  transportation  education manufacturing government and biotech source idc interviews november  a business value white paper sponsored by ibm maximo table of contents  march   doc
+6 || 10 || us
+7 || 1 || the business value of ibm maximo selection and use of ibm maximo the organizations that idc interviewed described typical usage patterns for ibm maximo in the context of their overall it environments
+7 || 2 || they also discussed the rationale for choosing the platform as an optimal means of ensuring robust and efficient asset management while helping their teams improve the handling of associated tasks and operations
+7 || 3 || study participants cited a variety of reasons for their choice such as the need to move beyond the legacy and manual approaches that traditionally supported their core operations including asset tracking work planning and documenting repair history and upgrading to a more scalable streamlined and usable platform
+7 || 4 || another key driver was the need to get a better handle on the financial aspects of inventory management
+7 || 5 || study participants also appreciated ibm maximos user-friendly approach to supply chain and maintenance management as well as the configurability ibm maximo offered for analytics and reporting tasks
+7 || 6 || they made these detailed comments the need for an organized and scalable platform  we were looking at our asset repair and it was all done in excel
+7 || 7 || asset tracking and repair history were all done this way as was work planning including managing technicians time parts inventory and so on
+7 || 8 || we moved to maximo because we needed something more organized scalable and structured and then had structured tools to work with an integrated scheduling and tracking solution  managing the number of field technicians and work scheduling was difficult without a robust solution
+7 || 9 || we also wanted to get a better handle on the financial aspects of inventory management tracking hours techs parts and work scheduled
+7 || 10 || we needed a better more integrated solution strong reputation for managing medical equipment  we have to manage a lot of highly specialized medical equipment and our it people are not necessarily experienced with that
+7 || 11 || we also got good references from other people in our industry for maximo as a solution user-friendly approach to supply chain management  maximos strength is being user friendly
+7 || 12 || its easy to configure for our needs as opposed to whats available from ibms competitors
+7 || 13 || we use maximo for supply chain and maintenance but were also integrated into a financial system called inforce configurable approach to analytics and reporting  we needed a good system to do analysis and reporting
+7 || 14 || all the systems are good but there are some specifics that make maximo unique
+7 || 15 || for example its easy to be customized and its strong for reporting
+7 || 16 || some systems are hard to customize for specific needs but maximo handles this well a business value white paper sponsored by ibm maximo table of contents  march   doc
+7 || 17 || us
+8 || 1 || the business value of ibm maximo robust analytics for asset management  we needed to track assets and really to look at maintenance management including work orders automated emails parts inventory equipment inventory purchasing records and vendor contacts
+8 || 2 || we needed to track all this info in a database so that we could perform better analytics table  provides a snapshot of ibm maximo usage across interviewed companies
+8 || 3 || on average there were  users of ibm maximo working in  facilities
+8 || 4 || the scale of asset management across all companies is indicated by the large number of assets being maintained  million and by the monetary value of their assets worth an average of approximately  billion
+8 || 5 || additional metrics are presented table  organizational profile of ibm maximo usage average median number of sites   number of offices   number of internal ibm maximo users   number of facilities   number of assets being maintained m  estimated value of equipment being maintained b b total organization revenue   source idc interviews november  business value and quantified benefits idcs business value methodology evaluates and quantifies the benefits for companies that have adopted ibm maximo as a core element of their asset management operations
+8 || 6 || after adoption interviewed companies were able to significantly improve asset management avoid unnecessary costs and increase overall efficiency
+8 || 7 || in addition the use of ibm maximo helped them improve the performance of their asset management and platform management teams with best available technology that supported moving from legacy or manual processes to operational streamlining via automation and other features
+8 || 8 || in addition the platform served business needs by avoiding the negative financial impacts of unplanned downtime and disruptive events while also improving end-user productivity and contributing to better business results
+8 || 9 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+8 || 10 || us
+9 || 1 || the business value of ibm maximo study participants highlighted these and other significant benefits quicker access to higher-quality information  were able to do better work scheduling and managing
+9 || 2 || we now have detailed planning and scheduling which is a big plus
+9 || 3 || were better able to manage our inventory with maximums and minimums cost and downtime reduction  the most significant benefit with ibm maximo is reducing costs and downtime
+9 || 4 || were also able to optimize our asset management in general
+9 || 5 || the predictability maximo gives us in looking at how we develop good maintenance practices and schedules is another benefit orderly asset management and preventative work  being able to bring order to the asset registry and generating preventative work related to that is the number  benefit we see every day
+9 || 6 || weve seen it for many years proactive asset maintenance with recorded history  ibm maximo allows our employees to manage their work better since predictive maintenance is scheduled for them
+9 || 7 || it allows them to address key issues before they happen
+9 || 8 || maximo also allows us to bring all maintenance information into a single system
+9 || 9 || this allows technicians to know all the history on an asset while in the field digitized single source of truth  ibm maximo allows us to monitor control and engage all of our stakeholders through a single portal
+9 || 10 || it digitizes all the necessary system work rather than making us rely on manual processes figure  next page presents a summary of the benefits that organizations achieved as a result of adopting ibm maximo
+9 || 11 || these results were calculated using idcs business value methodology
+9 || 12 || as shown average annual benefits totaled  million per organization  million per  maintenance workers
+9 || 13 || this evaluation took into account the following areas asset cost and management efficiencies  platform team efficiencies  business productivity benefits  a business value white paper sponsored by ibm maximo table of contents  march   doc
+9 || 14 || us
+10 || 1 || the business value of ibm maximo figure  average annual benefits  business productivity benefits platform team efficiences asset cost and management efficiencies average annual benefits m per organization  average annual benefits  per  maintenance workers      per organization per  maintenance workers n   source idc interviews november  asset cost and management efficiencies enterprise organizations are updating their enterprise asset management strategies to create more flexibility and resiliency in todays increasingly complex business environments
+10 || 2 || in addition they are rethinking the best ways to support their employees customers and partners regardless of device type physical location or time of day
+10 || 3 || cloud and mobile eam applications are expected to gain traction over on-premises and legacy eam applications
+10 || 4 || further the pandemic has placed new emphasis on the roles of remote maintenance and mobile innovation
+10 || 5 || asset managers and facility management teams are now looking for innovative new tools to fulfill tasks related to remote maintenance
+10 || 6 || ibm maximo is designed to help companies meet these challenges by providing an asset management lifecycle and workflow management system
+10 || 7 || the platform is geared toward increasing production uptime through the use of alerts and anomaly detection applying ai to analyze data in order to transition from reactive to predictive maintenance and empowering field technicians with accurate data to increase first-time fix rates
+10 || 8 || the companies that idc interviewed confirmed these benefits and appreciated that ibm a business value white paper sponsored by ibm maximo table of contents  march   doc
+10 || 9 || us
+11 || 1 || the business value of ibm maximo maximo helped create an organized efficient workflow for eam staff and provided optimized automated management of their enterprise assets
+11 || 2 || in terms of staffing they noted that the platform helped them expand the reach of tasks accomplished with the same or less staff and significantly reduce the impacts of disruptive events
+11 || 3 || another key benefit identified was the ability to schedule maintenance based on the ability to monitor asset conditions rather than using a more arbitrary manual scheduling process
+11 || 4 || in addition study participants noted that after adoption they achieved better overall visibility into maintenance lifecycles thereby allowing a proactive alert system to be put in place
+11 || 5 || they elaborated on these benefits having an organized efficient workflow for users  it keeps users organized and takes the guesswork out of what needs to be done on any given day
+11 || 6 || its all in the system and we dont need to track things in the microsoft outlook calendar app
+11 || 7 || it helps them be more productive and efficient efficient electronic management of assets  the big value is in the ability to manage things electronically
+11 || 8 || i would say we are  times as efficient in how we manage assets thanks to maximo reduction in staff and emergency events  we were able to reduce staff by  and emergency events by 
+11 || 9 || the number of water main breaks problems with fire hydrants and breakdowns with pumps due to lack of maintenance was also reduced by  better asset management with condition monitoring  maximo allows us to schedule maintenance based on condition monitoring instead of arbitrary schedules
+11 || 10 || its a fruitful way for us to manage our assets simplification of work permits process  before work permits were taking two to five days to approve
+11 || 11 || now it can be done in a day
+11 || 12 || this is just digitizing one process so you can imagine what has been done for preventive maintenance corrective maintenance and all of our other procedures along similar lines ibm maximo significantly increased the productivity of asset management teams with functionality such as predictive maintenance remote monitoring and simplified maintenance scheduling
+11 || 13 || ai-based predictive maintenance offered interviewed companies the ability to reduce costs and improve asset availability
+11 || 14 || after adoption study participants reported a  reduction in business-impacting incidents as the result of improving remote asset management through mobile enablement
+11 || 15 || in addition as shown in table  next page average asset management team productivity increased 
+11 || 16 || this productivity boost translated into an average annual salary savings of  for each organization surveyed
+11 || 17 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+11 || 18 || us
+12 || 1 || the business value of ibm maximo table  asset management team productivity benefit before ibm with ibm difference benefit maximo maximo total productivity value ftes     value of staff time per year m m m  source idc interviews november  idc then examined postadoption impacts related to business costs
+12 || 2 || with the ability to execute a more proactive approach to managing resources inventory and assets using ai-based predictive maintenance and other features interviewed organizations reported that maintenance and field organizations were able to reduce their operational costs
+12 || 3 || this included those stemming from disruptive events andor asset failure
+12 || 4 || as shown in table  idc calculated that after adoption total cost avoidances amounted to  annually for each organization surveyed
+12 || 5 || table  asset management operational cost avoidanceswith ibm maximo total cost avoidances per year m source idc interviews november  idc took a more granular look at cost benefits in terms of savings in equipment inventories
+12 || 6 || in utilizing ibm maximo to manage and schedule maintenance organizations were able to increase the life span of their fleet of assets and recognized significant cost avoidance in equipment spend
+12 || 7 || as one study participant noted ibm maximo allows us to understand the maintenance lifecycle and set up alerts before we need to execute maintenance
+12 || 8 || this allows us to better schedule maintenance and better understand the lifecycle of each asset idc calculated that surveyed organizations were able to extend asset life spans by avoiding costs associated with updating or replacing fleet equipment by an average of 
+12 || 9 || as shown in table  next page this amounted to substantial savings of m annually  calculated over a -year lifecycle
+12 || 10 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+12 || 11 || us
+13 || 1 || the business value of ibm maximo table  annualized equipment cost avoidances before ibm with ibm difference benefit maximo maximo total equipment costs  years b b b  total equipment costs per year m m m  source idc interviews november  compliance and risk management impacts idc evaluated impacts on regulatory compliance and risk management
+13 || 2 || interviewed companies reported that the platform helped them optimize their security profiles and improved the ability to oversee and manage the regulatory requirements affecting their industries
+13 || 3 || they noted that having a single source of truth for standards and regulations reduced the risk of fines for noncompliance and enabled an easier management process for their compliance teams
+13 || 4 || study participants also noted that reductions in downtime led to quicker business processing
+13 || 5 || they elaborated on these benefits strong security with greater availability  its easy to manage ibm maximo with optimal security and patches
+13 || 6 || we get very good support without losing control of the app
+13 || 7 || it has great availability
+13 || 8 || we have also reduced inventory costs and other kpis better industry regulatory management  ibm maximo has allowed us to manage all our regulations within our industry and track assets
+13 || 9 || its helped us better understand ordering and financials reduced risk of fines  there was a recent regulation we were supporting but we didnt have enough visibility into our engineering group
+13 || 10 || we updated maximo to include the engineers in the review process when these sorts of work orders were completed
+13 || 11 || that just recently has been added to maximo
+13 || 12 || if we werent making sure we were completing these regulations we would have gotten fined a single source for standards and regulations  we upload all the standards and regulation on the system and then do a small customization to link the regulation to the job plan itself
+13 || 13 || any job plan must be linked to any regulation so any supervisor who wants to perform a specific work order can see the regulation that must be followed for any specific maintenance a business value white paper sponsored by ibm maximo table of contents  march   doc
+13 || 14 || us
+14 || 1 || the business value of ibm maximo reductions in downtime that led to quicker business processing  by reducing downtime we are now able to process more medical samples avoiding unplanned downtime and costly disruptive events is an important aspect of effectively managing risk in todays volatile business climates
+14 || 2 || avoiding such events is now even more critical given the supply chain disruptions that surfaced in  in a wide variety of vertical markets
+14 || 3 || interviewed companies reported that compared with previous approaches ibm maximo offered them greater levels of reliability
+14 || 4 || as a result they experienced less unplanned downtime with less productivity andor revenue loss
+14 || 5 || as shown in figure  after adoption organizations experienced  fewer unplanned outages
+14 || 6 || further when outages did occur they were able to be remediated  sooner
+14 || 7 || figure  unplanned downtime kpis  improvement frequency of unplanned outages  time to resolve outages  n   source idc interviews november  staff productivity and business benefits business enablement represents another key evaluation area
+14 || 8 || interviewed companies reported that better asset management capabilities from ibm maximo benefitted important aspects of their business operations
+14 || 9 || more specifically they appreciated that their businesses were able to gain better control of spending such as contract pricing and billing management
+14 || 10 || they appreciated the enablement of improved decision making by eliminating the need to perform excel-based data mining
+14 || 11 || improved visibility for assets human resources and financials was also cited as a benefit
+14 || 12 || study participants elaborated on these benefits better spending control and billing management  a lot of the impact comes from the financial aspects of better asset management
+14 || 13 || we can now know precisely whats being used where so that we can bill accordingly
+14 || 14 || it also gives us insights into how much were spending so that we can better set contract pricing when up for renewal informed decision making to drive business forward  ibm maximo has helped us with better and faster decision making and be better organized overall
+14 || 15 || all of these help make us more efficient
+14 || 16 || managers have more tools to manage their assets and teams instead of having to create reports do data mining in excel or make educated guesses a business value white paper sponsored by ibm maximo table of contents  march   doc
+14 || 17 || us
+15 || 1 || the business value of ibm maximo improved leadership through better decision making  were able to make more informed decisions have improved leadership and gain a better understanding of all of our assets maintenance human resources and financials automatic configuration for stakeholder accountability  since we created many users for different stakeholders everybody was accountable and responsible for a specific action
+15 || 2 || there will always be an sla for each one of them
+15 || 3 || everything is configured automatically for all the stakeholders idc first assessed business end-user productivity exclusive of it staff to quantify business benefits
+15 || 4 || interviewed organizations reported that ibm maximo enabled supply chain customer support and other end-user groups by increasing productivity levels associated with specific tasks performed by each
+15 || 5 || table  quantifies these improvements and shows a productivity boost of  gained for each organization annually
+15 || 6 || this translated into a productivity-based business value of 
+15 || 7 || table  business enablement  staff non-it productivity benefit before ibm with ibm difference benefit maximo maximo total productivity level ftes     idc operating margin   value of staff time per year     source idc interviews november  idc then examined the team specifically slated to manage the ibm maximo platform
+15 || 8 || interviewed organizations reported that the solution provided them with a unified system for managing their assets and resources and that this created greater efficiency for their team
+15 || 9 || as shown in table  next page after adoption average team productivity increased 
+15 || 10 || these improvements translated into an average annual salary savings of  for each organization surveyed
+15 || 11 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+15 || 12 || us
+16 || 1 || the business value of ibm maximo table  platform management team efficiencies before ibm with ibm difference benefit maximo maximo total fte count     value of staff time per year     source idc interviews november  idc took a granular look at business enablement by examining revenue impacts
+16 || 2 || study participants reported that they were able to make more informed business decisions and do so with greater agility thereby enabling new revenue opportunities
+16 || 3 || note tables  and  next page present this analysis by drawing on data from a subset of all internal users of ibm maximo  ie maintenance workers involved in eam operations as shown idc calculated total additional annual gross revenue at  and total modeled additional net revenue at  annually
+16 || 4 || table  business enablement  higher revenue per organization per  maintenance workers total additional gross revenue m  per year assumed operating margin   total additional net revenue    idc model note the idc model assumes a  operating margin for all additional revenue source idc interviews november  a business value white paper sponsored by ibm maximo table of contents  march   doc
+16 || 5 || us
+17 || 1 || the business value of ibm maximo roi summary table  presents idcs full return-on-investment analysis for study participants use of ibm maximo
+17 || 2 || idc projects that interviewed companies will achieve five-year discounted benefits worth an average of  per organization through improved asset management cost savings and it teamend-user productivity gains as previously described
+17 || 3 || these benefits compare to total five-year discounted costs of 
+17 || 4 || these levels of benefits and investment costs are projected to result in an average five-year roi of  with a break-even point occurring in  months
+17 || 5 || table  five-year roi analysis per organization per  maintenance workers discounted benefits m m discounted investment m  npv m m roi   payback months   discount factor   source idc interviews november  challenges and opportunities the pace of digital technology innovation has never been quicker than it is today
+17 || 6 || in particular investments in cloud platforms and aiml have led to an explosion of new capabilities for application vendors and end users to exploit
+17 || 7 || the challenge for both is to find cost-effective ways to leverage these new capabilities while avoiding unnecessary disruption to the day-to-day imperative of managing assets and infrastructure
+17 || 8 || ibm maximos investments in ai cloud and other digital technology innovations have been substantial but the market in these areas is increasingly noisy and crowded
+17 || 9 || many of the new entrants have little or no experience in asset management or for that matter in the world of asset-intensive operations
+17 || 10 || however it is not always the best solution that gets buyers attention but its the one that makes boldest promises or is perceived as being able to do something others have not been able to do
+17 || 11 || standing out in all of the noise will be an ongoing challengea business value white paper sponsored by ibm maximo table of contents  march   doc
+17 || 12 || us
+18 || 1 || the business value of ibm maximo another significant challenge is the diverse set of attitudes and approaches to putting applications and data in the cloud
+18 || 2 || according to idcs  worldwide future of operations survey only  of organizations have an enterprisewide strategy of putting operational data in the cloud even as the value of doing so is becoming clear
+18 || 3 || most of ibms existing maximo clients are using maximo on premises and to them the value of moving to the cloud will not be obvious
+18 || 4 || while not an imperative the mutual benefit of doing so is becoming increasingly apparent
+18 || 5 || asset management is foundational for every organization in asset-intensive industries as the organizations strive to improve operational performance and resilience
+18 || 6 || the ultimate goal is to make the performance of all mission-critical assets transparent and predictable
+18 || 7 || the ibm maximo suite is well positioned to deliver on this promise but it will require ongoing investments in innovation and an ability to take its existing customers on the journey necessary to get there
+18 || 8 || this is the unavoidable challenge that market leaders face in every digital technology arena and the world of asset management despite its conservative nature is not immune to being disrupted
+18 || 9 || conclusion the forces of digital transformation sweeping the global economy have mostly left asset-intensive industries and organizations relatively unscathed  until now
+18 || 10 || it has become increasingly evident in the past few years that success or failure in these sectors is also heavily dependent on making the right digital technology investments
+18 || 11 || more specifically the current phase of continuous improvement is tightly tied to the ability of organizations to use more and better data to ensure that the right decisions are being made at the right time
+18 || 12 || excellence in asset management itself requires nothing less than the adoption of a full complement of digital technology solutions and capabilities including both eam and apm
+18 || 13 || the ibm maximo application suite is one of the most comprehensive and widely adopted asset management solution sets on the market and as this study demonstrates it has delivered substantial benefits  including improved reliability reduced maintenance costs and higher levels of productivity  to its customers
+18 || 14 || this in turn is the foundation for getting closer to the ultimate goals of no unplanned downtime no wasted capital and more sustainable operations
+18 || 15 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+18 || 16 || us
+19 || 1 || the business value of ibm maximo appendix methodology idcs standard business valueroi methodology was utilized for this project
+19 || 2 || this methodology is based on gathering data from organizations currently using ibm maximo as the foundation for the model
+19 || 3 || based on interviews with organizations using ibm maximo idc performed a three-step process to calculate the roi and payback period 
+19 || 4 || gathered quantitative benefit information during the interviews using a before-and-after assessment of the impact of using ibm maximo
+19 || 5 || in this study the benefits included security staff time efficiencies development productivity gains reduced costs associated with risk and higher revenue
+19 || 7 || created a complete investment five-year total cost analysis profile based on the interviews
+19 || 8 || investments go beyond the initial and annual costs of using ibm maximo and can include additional costs related to migrations planning consulting and staff or user training
+19 || 10 || calculated the roi and payback period
+19 || 11 || idc conducted a depreciated cash flow analysis of the benefits and investments for the organizations use of ibm maximo over a five-year period
+19 || 12 || roi is the ratio of the net present value npv and the discounted investment
+19 || 13 || the payback period is the point at which cumulative benefits equal the initial investment
+19 || 14 || idc bases the payback period and roi calculations on a number of assumptions which are summarized as follows time values are multiplied by burdened salary salary   for benefits and overhead to  quantify efficiency and manager productivity savings
+19 || 15 || for purposes of this analysis based on the geographic locations of the interviewed organizations idc has used assumptions of an average fully loaded salary of  per year for it staff members and an average fully loaded salary of  per year for non-it staff members
+19 || 16 || idc assumes that employees work  hours per year  weeks x  hours
+19 || 17 || the net present value of the five-year savings is calculated by subtracting the amount that  would have been realized by investing the original sum in an instrument yielding a  return to allow for the missed opportunity cost
+19 || 18 || this accounts for both the assumed cost of money and the assumed rate of return
+19 || 19 || because it solutions require a deployment period the full benefits of the solution are  not available during deployment
+19 || 20 || to capture this reality idc prorates the benefits on a monthly basis and then subtracts the deployment time from the first-year savings
+19 || 21 || note all numbers in this document may not be exact due to rounding
+19 || 22 || a business value white paper sponsored by ibm maximo table of contents  march   doc
+19 || 23 || us
+20 || 1 || the business value of ibm maximo about the analysts megan szurley senior research analyst business value strategy practiceidc megan szurley is a consulting manager within idcs custom solutions division delivering consultative support across every stage of the business lifecycle business planning and budgeting sales and marketing and performance measurement
+20 || 2 || in her position megan partners with idc analyst teams to support deliverables that focus on thought leadership business value custom analytics buyer behavior and content marketing
+20 || 3 || these customized deliverables are often derived from primary research and yield content marketing market models and customer insights
+20 || 4 || more about megan szurley leif eriksen research vice president future of operations idc leifs primary responsibility is leading idcs future of operations practice with the energy insights and the itot convergence program reporting to him
+20 || 5 || his teams research is focused on how digital technology  particularly cloud collaboration and ai technologies  are transforming operations across industries and within industries
+20 || 6 || they are at the center of defining how enterprises can and should navigate the journey of transforming their own operations using digital technology
+20 || 7 || more about leif eriksen a business value white paper sponsored by ibm maximo table of contents  march   doc
+20 || 8 || us

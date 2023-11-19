@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var files = ViewBag.Files;
+    if(files == null)
+    {
+        files = new List<string>();
+    }
+    var bookShelves = ViewBag.BookShelves;
+    var index= "/home/viewer";
+    var newBookShelf = ViewBag.NewBookShelf;
+    var bookShelf = ViewBag.BookShelf;
+}
+
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+<script type="text/javascript" src="~/js/index/index.js"></script>
+<script type="text/javascript" src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+
+<script type="text/javascript">
+  var bookList = []
+  var jsBookshelf = '@bookShelf';
+</script>
+
+<div id="index-container">
+    @{
+        if(newBookShelf == true) {
+            <h2>Make a new bookshelf to store your documents on.</h2>
+            <form id="" method="POST" asp-action="NewBookShelf" asp-controller="Home" enctype="multipart/form-data">
+                <input type="text" placeholder="Bookshelf name" name="newbookshelfname" />
+                <input type="submit"/>
+                <button onclick="window.location.href='/'">Cancel</button>
+            </form>
+        } else {
+
+            <div id="bookshelf-list">
+                <div>
+                    @{
+                       foreach(var file in bookShelves)
+                       {
+                        string folder = file.Split("/")[0];
+                        string child = file.Split("/")[1];
+                        <div class="bookshelf">#@folder/<a href="/?bookshelf=@child">@child</a></div>
+                       }
+                    }
+                </div>
+                <div style="margin-top: 20px; padding: 20px;">
+                    <button id="newbookshelfbutton" onclick="makeNewBookShelf()">New</button>
+                </div>
+            </div>
+
+            <div id="bookshelf-detail">
+                @{
+                    if(@bookShelf != null)
+                    {
+                        <button class="button-27" role="button" onclick="showAddBookContainer()">My Books</button>
+                        <!--
+                        <div class="title-main">Upload File</div>
+                        <form id="formupload" method="POST" asp-action="UploadFile" asp-controller="Home" enctype="multipart/form-data">
+                            <input type="file" id="file" name="file" />
+                            <input style="display: none;" id="bookshelf" name="bookshelf" value='@bookShelf'/>
+                            <input type="submit" value="Upload" />
+                        </form>
+                        <div class="title-main">Capture Webpage (Paste URL)</div>
+                        <form id="formupload-url" method="POST" asp-action="IndexURL" asp-controller="Home" enctype="multipart/form-data">
+                            <input type="text" id="url" name="url" />
+                            <input style="display: none;" id="bookshelf" name="bookshelf" value='@bookShelf'/>
+                            <input type="submit" value="Capture" />
+                        </form>
+                        -->
+                        <div>
+                            <div>
+                                @foreach (var file in files)
+                                {
+                                    <script type="text/javascript">
+                                      bookList.push({"book": '@file', "url": "@index?filename=@file&bookShelfName=@bookShelf"})
+                                    </script>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+
+
+            </div>
+
+        }
+    }
+</div>
+
+<link rel="stylesheet" href="~/css/bookshelf.css" asp-append-version="true" />
+<script type="text/javascript" src="~/js/index/bookshelf.js"></script>

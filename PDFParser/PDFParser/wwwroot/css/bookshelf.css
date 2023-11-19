@@ -1,0 +1,268 @@
+
+
+#launchpoint-modal-container {
+  height: 100vh;
+  padding: 30px;
+  width: fit-content;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 0 45px 7px rgba(0, 0, 0, 0.3);
+  top: 0px;
+  right: 0;
+  transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  min-width: 50vw;
+  max-width: 50vw;
+  overflow: scroll;
+  /* grid-template-areas: "appbox-topdiv" "appbox-list";*/
+  /* grid-template-rows: 5% 95%;*/
+
+  display: grid;
+  grid-template-rows: "1fr 1fr";
+  grid-template-areas:
+  "book-list"
+  "add-book-container";
+}
+
+#launchpoint-modal-backdrop {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.307);
+    z-index: 50;
+    transition-duration: 0.2s;
+    animation-duration: 0.2s;
+
+}
+.launchpoint-modal-backdrop-hide {
+    display: none;
+}
+.launchpoint-modal-backdrop-show {
+    display:block;
+}
+
+
+
+.show {
+  z-index: 100;
+  transform: translate3d(0vw, 0vw, 0vw);
+}
+
+.hide {
+  z-index: 0;
+  transform: translate3d(60vw, 0, 0);
+  overflow: hidden;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  background: black;
+  border-color: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.book-item {
+  padding: 20px;
+  margin: 20px;
+  min-width: 250px;
+  min-height: 320px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+
+}
+.book-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#book-list {
+  grid-area: book-list;
+  display: flex;
+  flex-flow: row;
+  padding: 20px;
+  overflow: scroll;
+}
+#add-book-container {
+  grid-area: add-book-container;
+  display: flex;
+  flex-flow: column;
+  padding: 20px;
+}
+
+#addBookDropZone {
+  margin-top: auto;
+  background: whitesmoke;
+  border-style: dashed;
+  border-color: black;
+  border-radius: 10px;
+}
+
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  width: fit-content;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+/* form components */
+.form-component {
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.form-component-title {
+  font-family: Main-bold;
+  font-size: 20px;
+  color: #1F1F1F;
+  margin-bottom: 10px;
+}
+
+#selected-code {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #F2F2F2;
+  padding: 10px;
+  overflow: scroll;
+}
+.form-component-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #F2F2F2;
+  padding: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+#launchpoint-type {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-flow: row;
+}
+
+
+.form-component ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	overflow: auto;
+}
+
+#launchpoint-type-list {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+	overflow: auto;
+  background: blue;
+}
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0E62FE;;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0E62FE;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0E62FE;
+}
+
+.radiolabel {
+  font-family: Main-light;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+  padding: 5px;
+  margin-right: 5px;
+}
+input[type="checkbox"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  margin-right: 10px;
+  border-color:rgba(73, 73, 73, 0.307);
+}
+input[type="radio"] {
+  border-color:rgba(73, 73, 73, 0.307);
+  margin-right: 10px;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+input {
+  font-size: 25px;
+}
+
+
+
+#newfrom-launchpointform-button {
+  background: none;
+  outline: none;
+  border: none;
+  color: lightgray;
+  font-family: Main-bold;
+  margin-left: 20px;
+  font-size: 18px;
+  margin: auto;
+  transition-duration: 0.2s;
+  padding: 20px;
+}
+#newfrom-launchpointform-button:hover {
+  color: #0E62FE;
+  cursor: pointer;
+}
+#newfrom-launchpointform-button:active {
+  color: #0E62FE;
+  cursor: pointer;
+}
